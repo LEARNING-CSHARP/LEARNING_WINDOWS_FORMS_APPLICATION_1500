@@ -48,13 +48,13 @@
 			// 
 			this.labelTimer.Enabled = true;
 			this.labelTimer.Interval = 1000;
-			this.labelTimer.Tick += new System.EventHandler(this.labelTimer_Tick);
+			this.labelTimer.Tick += new System.EventHandler(this.LabelTimer_Tick);
 			// 
 			// formTimer
 			// 
 			this.formTimer.Enabled = true;
 			this.formTimer.Interval = 1;
-			this.formTimer.Tick += new System.EventHandler(this.formTimer_Tick);
+			this.formTimer.Tick += new System.EventHandler(this.FormTimer_Tick);
 			// 
 			// MainForm
 			// 

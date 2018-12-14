@@ -7,7 +7,7 @@
 			InitializeComponent();
 		}
 
-		private void labelTimer_Tick(object sender, System.EventArgs e)
+		private void LabelTimer_Tick(object sender, System.EventArgs e)
 		{
 			//if (labelCaption.Text == "به کلاس من خوش آمدید")
 			//{
@@ -28,7 +28,7 @@
 			}
 		}
 
-		private void formTimer_Tick(object sender, System.EventArgs e)
+		private void FormTimer_Tick(object sender, System.EventArgs e)
 		{
 			if (Width < 560)
 			{
