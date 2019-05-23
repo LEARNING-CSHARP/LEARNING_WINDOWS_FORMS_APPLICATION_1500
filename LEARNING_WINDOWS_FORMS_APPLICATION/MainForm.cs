@@ -36,6 +36,7 @@
 			}
 			else
 			{
+				//formTimer.Stop();
 				formTimer.Enabled = false;
 			}
 		}
